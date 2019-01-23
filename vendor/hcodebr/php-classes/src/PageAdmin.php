@@ -1,6 +1,8 @@
-<?php>
+<?php
 
 namespace Hcode;
+
+use Rain\Tpl;
 
 
 class PageAdmin extends Page {

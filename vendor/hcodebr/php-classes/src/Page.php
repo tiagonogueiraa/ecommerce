@@ -22,7 +22,7 @@ class Page {
 
 		// config
 	$config = array(
-					"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"].$tpl_dir,
+					"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]. $tpl_dir,
 					"cache_dir"     => $_SERVER["DOCUMENT_ROOT"]."/views-cache/",
 					"debug"         => false // set to false to improve the speed
 					//NAO PRECISA DESSA PARTE, ou coloque false. | "debug"         => true // set to false to improve the speed
