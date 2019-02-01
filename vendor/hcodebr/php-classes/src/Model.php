@@ -21,12 +21,13 @@ class Model {
 			
 			case "get":
 
-				return $this->values[$fieldName];
+			return $this->values[$fieldName];
 
 			break;
 			case "set":
 
-				return $this->values[$fieldName] =  $args[0];
+			return $this->values[$fieldName] =  $args[0];
+			
 			break;
 
 		}
@@ -50,4 +51,4 @@ class Model {
 
 }
 
- ?>
+?>
