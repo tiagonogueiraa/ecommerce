@@ -2,6 +2,8 @@
 
 namespace Hcode;
 
+use Rain\Tpl;
+
 class Model {
 
 	//ter todos os valores que tem no objeto 
@@ -21,7 +23,8 @@ class Model {
 			
 			case "get":
 
-			return $this->values[$fieldName];
+			//SE EXISTE O VALOR RETORNA ELE, SE NÃO RETORNA NULO
+			return (isset($this->values[$fieldName])) ? $this->values[$fieldName] : NULL;
 
 			break;
 			case "set":
